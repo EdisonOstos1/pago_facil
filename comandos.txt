@@ -1,0 +1,477 @@
+Microsoft Windows [Versión 10.0.17763.1039]
+(c) 2018 Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\sena\Desktop\git\blog>php artisand server
+Could not open input file: artisand
+
+C:\Users\sena\Desktop\git\blog>php artisan serve
+Laravel development server started: http://127.0.0.1:8000
+[Wed Feb 26 19:42:56 2020] PHP 7.4.2 Development Server (http://127.0.0.1:8000) started
+[Wed Feb 26 19:43:00 2020] 127.0.0.1:50668 Accepted
+[Wed Feb 26 19:43:00 2020] 127.0.0.1:50669 Accepted
+[Wed Feb 26 19:43:01 2020] 127.0.0.1:50668 Closing
+[Wed Feb 26 19:43:01 2020] 127.0.0.1:50669 [200]: GET /favicon.ico
+[Wed Feb 26 19:43:01 2020] 127.0.0.1:50669 Closing
+[Wed Feb 26 19:43:01 2020] 127.0.0.1:50671 Accepted
+[Wed Feb 26 19:43:04 2020] 127.0.0.1:50683 Accepted
+[Wed Feb 26 19:44:04 2020] 127.0.0.1:50671 Closed without sending a request; it was probably just an unused speculative preconnection
+[Wed Feb 26 19:44:04 2020] 127.0.0.1:50671 Closing
+[Wed Feb 26 19:44:04 2020] 127.0.0.1:50691 Accepted
+^C
+C:\Users\sena\Desktop\git\blog>
+
+C:\Users\sena\Desktop\git\blog>php artisan serve
+Laravel development server started: http://127.0.0.1:8000
+[Wed Feb 26 19:44:25 2020] PHP 7.4.2 Development Server (http://127.0.0.1:8000) started
+^C
+C:\Users\sena\Desktop\git\blog>
+
+C:\Users\sena\Desktop\git\blog>^Cphp artisan serve
+
+C:\Users\sena\Desktop\git\blog>php artisand server
+Could not open input file: artisand
+
+C:\Users\sena\Desktop\git\blog>
+
+C:\Users\sena\Desktop\git\blog>php artisand server
+Could not open input file: artisand
+
+C:\Users\sena\Desktop\git\blog>
+
+C:\Users\sena\Desktop\git\blog>php artisan serve
+Laravel development server started: http://127.0.0.1:8000
+[Wed Feb 26 19:44:37 2020] PHP 7.4.2 Development Server (http://127.0.0.1:8000) started
+^C
+C:\Users\sena\Desktop\git\blog>
+
+C:\Users\sena\Desktop\git\blog>^C
+
+C:\Users\sena\Desktop\git\blog>git init
+Initialized empty Git repository in C:/Users/sena/Desktop/git/blog/.git/
+
+C:\Users\sena\Desktop\git\blog>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .editorconfig
+        .env.example
+        .gitattributes
+        .gitignore
+        .styleci.yml
+        README.md
+        app/
+        artisan
+        bootstrap/
+        composer.json
+        composer.lock
+        config/
+        database/
+        package-lock.json
+        package.json
+        phpunit.xml
+        public/
+        resources/
+        routes/
+        server.php
+        storage/
+        tests/
+        webpack.mix.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\sena\Desktop\git\blog>git add .
+warning: LF will be replaced by CRLF in .editorconfig.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .env.example.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .gitattributes.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .styleci.yml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Console/Kernel.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Exceptions/Handler.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Controllers/Auth/ConfirmPasswordController.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Controllers/Auth/ForgotPasswordController.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Controllers/Auth/LoginController.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Controllers/Auth/RegisterController.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Controllers/Auth/ResetPasswordController.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Controllers/Auth/VerificationController.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Controllers/Controller.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Kernel.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Middleware/Authenticate.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Middleware/CheckForMaintenanceMode.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Middleware/EncryptCookies.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Middleware/RedirectIfAuthenticated.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Middleware/TrimStrings.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Middleware/TrustProxies.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Middleware/VerifyCsrfToken.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Providers/AppServiceProvider.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Providers/AuthServiceProvider.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Providers/BroadcastServiceProvider.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Providers/EventServiceProvider.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Providers/RouteServiceProvider.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/User.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in artisan.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap/app.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap/cache/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in composer.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in composer.lock.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/app.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/auth.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/broadcasting.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/cache.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/database.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/filesystems.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/hashing.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/logging.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/mail.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/queue.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/services.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/session.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/view.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in database/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in database/factories/UserFactory.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in database/migrations/2014_10_12_000000_create_users_table.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in database/migrations/2014_10_12_100000_create_password_resets_table.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in database/migrations/2019_08_19_000000_create_failed_jobs_table.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in database/seeds/DatabaseSeeder.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package-lock.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in phpunit.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in public/.htaccess.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in public/index.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in public/robots.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/js/app.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/js/bootstrap.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/lang/en/auth.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/lang/en/pagination.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/lang/en/passwords.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/lang/en/validation.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/sass/app.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/welcome.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in routes/api.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in routes/channels.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in routes/console.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in routes/web.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in server.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in storage/app/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in storage/app/public/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in storage/framework/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in storage/framework/cache/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in storage/framework/cache/data/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in storage/framework/sessions/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in storage/framework/testing/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in storage/framework/views/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in storage/logs/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/CreatesApplication.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/Feature/ExampleTest.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/TestCase.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/Unit/ExampleTest.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in webpack.mix.js.
+The file will have its original line endings in your working directory
+
+C:\Users\sena\Desktop\git\blog>git commit -m "inicio del proyecto"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'sena@DESKTOP-8QL3DEJ.(none)')
+
+C:\Users\sena\Desktop\git\blog>
+C:\Users\sena\Desktop\git\blog>git config --global user.name EdisonOstos1
+
+C:\Users\sena\Desktop\git\blog>git commit -m "Inicio del Proyecto"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'sena@DESKTOP-8QL3DEJ.(none)')
+
+C:\Users\sena\Desktop\git\blog>git config --global user.name"EdisonOstos1"
+
+C:\Users\sena\Desktop\git\blog>git config --global user.email"ediostos@gmail.com"
+
+C:\Users\sena\Desktop\git\blog>git commit -m "inicio del proyecto"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'sena@DESKTOP-8QL3DEJ.(none)')
+
+C:\Users\sena\Desktop\git\blog>git config --global user.name "EdisonOstos1"
+
+C:\Users\sena\Desktop\git\blog>git config --global user.email "ediostos@gmail.com"
+
+C:\Users\sena\Desktop\git\blog>
+C:\Users\sena\Desktop\git\blog>
+C:\Users\sena\Desktop\git\blog>git commit -m "inicio del proyecto"
+[master (root-commit) 4ccdb56] inicio del proyecto
+ 87 files changed, 18561 insertions(+)
+ create mode 100644 .editorconfig
+ create mode 100644 .env.example
+ create mode 100644 .gitattributes
+ create mode 100644 .gitignore
+ create mode 100644 .styleci.yml
+ create mode 100644 README.md
+ create mode 100644 app/Console/Kernel.php
+ create mode 100644 app/Exceptions/Handler.php
+ create mode 100644 app/Http/Controllers/Auth/ConfirmPasswordController.php
+ create mode 100644 app/Http/Controllers/Auth/ForgotPasswordController.php
+ create mode 100644 app/Http/Controllers/Auth/LoginController.php
+ create mode 100644 app/Http/Controllers/Auth/RegisterController.php
+ create mode 100644 app/Http/Controllers/Auth/ResetPasswordController.php
+ create mode 100644 app/Http/Controllers/Auth/VerificationController.php
+ create mode 100644 app/Http/Controllers/Controller.php
+ create mode 100644 app/Http/Kernel.php
+ create mode 100644 app/Http/Middleware/Authenticate.php
+ create mode 100644 app/Http/Middleware/CheckForMaintenanceMode.php
+ create mode 100644 app/Http/Middleware/EncryptCookies.php
+ create mode 100644 app/Http/Middleware/RedirectIfAuthenticated.php
+ create mode 100644 app/Http/Middleware/TrimStrings.php
+ create mode 100644 app/Http/Middleware/TrustProxies.php
+ create mode 100644 app/Http/Middleware/VerifyCsrfToken.php
+ create mode 100644 app/Providers/AppServiceProvider.php
+ create mode 100644 app/Providers/AuthServiceProvider.php
+ create mode 100644 app/Providers/BroadcastServiceProvider.php
+ create mode 100644 app/Providers/EventServiceProvider.php
+ create mode 100644 app/Providers/RouteServiceProvider.php
+ create mode 100644 app/User.php
+ create mode 100644 artisan
+ create mode 100644 bootstrap/app.php
+ create mode 100644 bootstrap/cache/.gitignore
+ create mode 100644 composer.json
+ create mode 100644 composer.lock
+ create mode 100644 config/app.php
+ create mode 100644 config/auth.php
+ create mode 100644 config/broadcasting.php
+ create mode 100644 config/cache.php
+ create mode 100644 config/database.php
+ create mode 100644 config/filesystems.php
+ create mode 100644 config/hashing.php
+ create mode 100644 config/logging.php
+ create mode 100644 config/mail.php
+ create mode 100644 config/queue.php
+ create mode 100644 config/services.php
+ create mode 100644 config/session.php
+ create mode 100644 config/view.php
+ create mode 100644 database/.gitignore
+ create mode 100644 database/factories/UserFactory.php
+ create mode 100644 database/migrations/2014_10_12_000000_create_users_table.php
+ create mode 100644 database/migrations/2014_10_12_100000_create_password_resets_table.php
+ create mode 100644 database/migrations/2019_08_19_000000_create_failed_jobs_table.php
+ create mode 100644 database/seeds/DatabaseSeeder.php
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 phpunit.xml
+ create mode 100644 public/.htaccess
+ create mode 100644 public/favicon.ico
+ create mode 100644 public/index.php
+ create mode 100644 public/robots.txt
+ create mode 100644 resources/js/app.js
+ create mode 100644 resources/js/bootstrap.js
+ create mode 100644 resources/lang/en/auth.php
+ create mode 100644 resources/lang/en/pagination.php
+ create mode 100644 resources/lang/en/passwords.php
+ create mode 100644 resources/lang/en/validation.php
+ create mode 100644 resources/sass/app.scss
+ create mode 100644 resources/views/welcome.blade.php
+ create mode 100644 routes/api.php
+ create mode 100644 routes/channels.php
+ create mode 100644 routes/console.php
+ create mode 100644 routes/web.php
+ create mode 100644 server.php
+ create mode 100644 storage/app/.gitignore
+ create mode 100644 storage/app/public/.gitignore
+ create mode 100644 storage/framework/.gitignore
+ create mode 100644 storage/framework/cache/.gitignore
+ create mode 100644 storage/framework/cache/data/.gitignore
+ create mode 100644 storage/framework/sessions/.gitignore
+ create mode 100644 storage/framework/testing/.gitignore
+ create mode 100644 storage/framework/views/.gitignore
+ create mode 100644 storage/logs/.gitignore
+ create mode 100644 tests/CreatesApplication.php
+ create mode 100644 tests/Feature/ExampleTest.php
+ create mode 100644 tests/TestCase.php
+ create mode 100644 tests/Unit/ExampleTest.php
+ create mode 100644 webpack.mix.js
+
+C:\Users\sena\Desktop\git\blog>git remote -v
+
+C:\Users\sena\Desktop\git\blog>git remote add origin https://github.com/EdisonOstos1/pago_facil.git
+
+C:\Users\sena\Desktop\git\blog>git push add origin master https://github.com/EdisonOstos1/pago_facil.git
+fatal: invalid refspec 'https://github.com/EdisonOstos1/pago_facil.git'
+
+C:\Users\sena\Desktop\git\blog>git push origin master https://github.com/EdisonOstos1/pago_facil.git
+fatal: invalid refspec 'https://github.com/EdisonOstos1/pago_facil.git'
+
+C:\Users\sena\Desktop\git\blog>git remote -v
+origin  https://github.com/EdisonOstos1/pago_facil.git (fetch)
+origin  https://github.com/EdisonOstos1/pago_facil.git (push)
+
+C:\Users\sena\Desktop\git\blog>git push origin master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com': ediostos@gmail.com
+Password for 'https://ediostos@gmail.com@github.com':
+To https://github.com/EdisonOstos1/pago_facil.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/EdisonOstos1/pago_facil.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\sena\Desktop\git\blog>git push -f origin master
+Enumerating objects: 113, done.
+Counting objects: 100% (113/113), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (95/95), done.
+Writing objects: 100% (113/113), 152.61 KiB | 3.55 MiB/s, done.
+Total 113 (delta 11), reused 0 (delta 0)
+remote: Resolving deltas: 100% (11/11), done.
+To https://github.com/EdisonOstos1/pago_facil.git
+ + 8265f46...4ccdb56 master -> master (forced update)
+
+C:\Users\sena\Desktop\git\blog>php artisan serve
+Laravel development server started: http://127.0.0.1:8000
+[Wed Feb 26 20:35:33 2020] PHP 7.4.2 Development Server (http://127.0.0.1:8000) started
+[Wed Feb 26 20:41:42 2020] 127.0.0.1:51427 Accepted
+[Wed Feb 26 20:41:42 2020] 127.0.0.1:51428 Accepted
+[Wed Feb 26 20:41:42 2020] 127.0.0.1:51427 Closing
+[Wed Feb 26 20:41:42 2020] 127.0.0.1:51428 [200]: GET /favicon.ico
+[Wed Feb 26 20:41:42 2020] 127.0.0.1:51428 Closing
+[Wed Feb 26 20:41:42 2020] 127.0.0.1:51429 Accepted
+[Wed Feb 26 20:41:43 2020] 127.0.0.1:51431 Accepted
+[Wed Feb 26 20:43:16 2020] 127.0.0.1:51429 Closed without sending a request; it was probably just an unused speculative preconnection
+[Wed Feb 26 20:43:16 2020] 127.0.0.1:51429 Closing
+[Wed Feb 26 20:43:16 2020] 127.0.0.1:51431 Closed without sending a request; it was probably just an unused speculative preconnection
+[Wed Feb 26 20:43:16 2020] 127.0.0.1:51431 Closing
+^C
+C:\Users\sena\Desktop\git\blog>php artisan serve
+Laravel development server started: http://127.0.0.1:8000
+[Wed Feb 26 20:58:03 2020] PHP 7.4.2 Development Server (http://127.0.0.1:8000) started
+[Wed Feb 26 20:58:05 2020] 127.0.0.1:51576 Accepted
+[Wed Feb 26 20:58:05 2020] 127.0.0.1:51577 Accepted
+[Wed Feb 26 20:58:05 2020] 127.0.0.1:51576 Closing
+[Wed Feb 26 20:58:05 2020] 127.0.0.1:51577 [200]: GET /favicon.ico
+[Wed Feb 26 20:58:05 2020] 127.0.0.1:51577 Closing
+[Wed Feb 26 20:58:05 2020] 127.0.0.1:51579 Accepted
+[Wed Feb 26 20:58:09 2020] 127.0.0.1:51579 Closing
+[Wed Feb 26 20:58:09 2020] 127.0.0.1:51582 Accepted
+[Wed Feb 26 20:58:09 2020] 127.0.0.1:51582 [200]: GET /favicon.ico
+[Wed Feb 26 20:58:09 2020] 127.0.0.1:51582 Closing
+[Wed Feb 26 20:58:09 2020] 127.0.0.1:51583 Accepted
+[Wed Feb 26 20:58:20 2020] 127.0.0.1:51583 Closing
+[Wed Feb 26 20:58:20 2020] 127.0.0.1:51586 Accepted
+[Wed Feb 26 20:58:20 2020] 127.0.0.1:51586 [200]: GET /favicon.ico
+[Wed Feb 26 20:58:20 2020] 127.0.0.1:51586 Closing
+[Wed Feb 26 20:58:20 2020] 127.0.0.1:51587 Accepted
+[Wed Feb 26 20:59:20 2020] 127.0.0.1:51594 Accepted
