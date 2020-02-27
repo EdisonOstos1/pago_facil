@@ -21,7 +21,6 @@ Route::get('arreglosm', function () {
             "capital" => "Bogota",
             "moneda" => "peso",
             "poblacion" => 50,
-            "Ciudades Principales" => ["Bogota", "Medellin", "Cali"]
         ],
 
         "alemania" => [
