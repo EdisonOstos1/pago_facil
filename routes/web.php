@@ -19,21 +19,24 @@ Route::get('arreglosm', function () {
     $paises = [
         "colombia" => [
             "capital" => "Bogota",
-            "moneda" => "peso",
+            "Moneda" => "peso",
             "poblacion" => 50,
+            "importantes" => ["Bogota","Medellin","Cali"]
         ],
 
         "alemania" => [
             "capital" => "Berlin",
             "Moneda" => "Euro",
-            "Poblacion" => "82,79 Millones"
+            "poblacion" => "82,79 Millones",
+            "importantes" => ["Berlín","Múnich","bging"]
         ],
 
 
         "peru" => [
             "capital" => "Lima",
             "Moneda" => "Sol",
-            "Polacion" => "32,17 millones"
+            "poblacion" => "32,17 millones",
+            "importantes" => ["Arequipa","Cusco","next"]
         ]
     ];
 
@@ -43,13 +46,18 @@ Route::get('arreglosm', function () {
 
     // REcorrer Arreglo
 
-    foreach ($paises as $pais => $informacion) {
+    // foreach ($paises as $pais => $informacion) {
 
-        echo "<h1> $pais</h1>";
-        foreach ($informacion as $clave => $valor) {
+    //     echo "<h1> $pais</h1>";
+    //     foreach ($informacion as $clave => $valor) {
 
-            echo"$clave: $valor";
-        };
-        echo "<hr />";
-    };
+    //         echo"$clave: $valor";
+    //     };
+    //     echo "<hr />";
+    // };
+
+    // mostrar la vista
+
+    return view('paises')
+    ->with('paises' , $paises);
 });
